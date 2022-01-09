@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bethany Wedding</title>
+    <script src="https://kit.fontawesome.com/551b173183.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" type="image/png" href="./images/logo.png"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header-contact">
+        <div class="header-root">
+            <nav>
+                <a href="home.html"><img src="./images/logo.png"></a>
+                <div class="nav-links">
+                    <ul id="MenuItems">
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="service.html">SERVICE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-bars menu-icon" onclick="menutoggle()"></i>
+            </nav>
+        </div>
+        <div class="text-box">
+            <h1>Contact</h1>
+        </div>
+    </div> 
+
+
+    <div class="margin">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="row">
+                <div class="col-2-contact">
+                    <h4>Get in Touch</h4>
+                    <p>
+                        Thank you so much for reaching uot to us - we are excited to connect with you! <br>
+                        Tell us about you. If you do not receive response within 24 hours, please
+                        contact us directly email or phone.
+                    </p>
+                    <div class="row-contact">
+                        <!-- <i class="fas fa-user"></i> -->
+                        <div class="info">
+                            <div class="head"> <span>Phone</span> : +1.123.444.000 </div>
+                        </div>
+                    </div>
+                    <div class="row-contact">
+                        <!-- <i class="fas fa-map-marker-alt"></i> -->
+                        <div class="info">
+                            <div class="head"> <span>Email</span> : info@bethany.com </div>
+                        </div>
+                    </div>
+                    <div class="row-contact">
+                        <!-- <i class="fas fa-envelope"></i> -->
+                        <div class="info">
+                            <div class="head"> <span>Address</span> : Broadway 5 St Normain New York 98499, USA</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2-contact">
+                    <h4>Message me</h4>
+                    <form action="#">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button type="submit">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- ----------- footer ----------- -->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>KEEP IN TOUCH WITH US</h3>
+                        <p>Subscribe to receive update and access to <br> exclusive deals & more.</p>
+                        <div class="field name">
+                            <input type="text" placeholder="Enter your email here" required>
+                        </div>
+                        <a href="#" class="hero-btn">Subscribe<i class="far fa-bell"></i></a>
+                    </div>
+                    <div class="footer-col-2">
+                        <h3>QUICK LINKS</h3>
+                        <ul>
+                            <li><a href="#">Christmas</a></li>
+                            <li><a href="#">Brownie Boxes</a></li>
+                            <li><a href="#">Cake Boxes</a></li>
+                            <li><a href="#">Traybakes & Tarts</a></li>
+                            <li><a href="#">Treat Boxes</a></li>
+                            <li><a href="#">Preserves</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>SUPPORT</h3>
+                        <ul>
+                            <li><a href="#">Awards</a> </li>
+                            <li><a href="#">Delivery</a></li>
+                            <li><a href="#">Returns</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Newsietter</a></li>
+                            <li><a href="#">About Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row_2">
+                    <div class="contact-social-links">
+                        <a href="#" class="icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="footer-links">
+                        <a href="#">Home</a>
+                        <a href="#">FAQ</a>
+                        <a href="#">Site Map</a>
+                        <a href="#">Privacy</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="footer-copyright">
+                    <p>Copyright 2019 This Old Book</p>
+                </div>
+            </div>
+        </div>    
+    </div>
+        
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle() {
+            if(MenuItems.style.maxHeight == "0px"){
+                MenuItems.style.maxHeight = "400px";
+            }
+            else{
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+</body>
+</html>
