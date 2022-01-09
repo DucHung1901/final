@@ -304,7 +304,7 @@ h2::after{
     position: relative;
     min-height: 60vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.3), rgba(4,9,30,0.3)), url(/images/service.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.3), rgba(4,9,30,0.3)), url(images/service.jpg);
 }
 .service{
     margin: 100px 0;
@@ -749,7 +749,7 @@ form .name{
         padding: 1% 3%;
     }
     h2::after{
-        bottom: -10%;
+        bottom: -20%;
     }
     .col-4 {
         flex-basis: 100%;
