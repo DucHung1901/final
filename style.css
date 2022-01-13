@@ -257,15 +257,6 @@ h2::after{
 .conment-content .author{
     font-size: 16px;
 }
-.container-small{
-    max-width: 1200px;
-    margin: auto;
-}
-.row-small{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
 .col-3-small{
     flex-basis: 31%;
     margin: 50px 10px 10px 10px;
@@ -343,7 +334,7 @@ h2::after{
     background: none;
 }
 .col-3-small #service{
-    width: 95%;
+    width: 100%;
     object-fit: cover;
     transition: transform 1s ease;
 }
