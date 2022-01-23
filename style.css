@@ -142,12 +142,12 @@ h2::after{
 }
 .col-2{
     text-align: center;
-    flex-basis: 50%;
+    flex-basis: 47%;
     min-width: 200px;
     margin-top: 50px;
 }
 .col-2 img{
-    width: 75%;
+    width: 100%;
 }
 .col-2 h4{
     font-size: 20px;
